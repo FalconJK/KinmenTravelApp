@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/note"
+            android:icon="@drawable/ic_webchart"
+            android:checked="true"
+            android:title="全部行程" />
+        <item
+            android:id="@+id/eat"
+            android:checkable="false"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="美食地圖" />
+        <item
+            android:id="@+id/day1"
+            android:icon="@drawable/ic_calendar_1"
+            android:title="第一天" />
+        <item
+            android:id="@+id/day2"
+            android:icon="@drawable/ic_calendar_2"
+            android:title="第二天" />
+        <item
+            android:id="@+id/day3"
+            android:icon="@drawable/ic_calendar_3"
+            android:title="第三天" />
+    </group>
+
+    <item android:title="更新資料">
+        <menu>
+            <item
+                android:id="@+id/update"
+                android:icon="@drawable/ic_update_black_24dp"
+                android:title="更新" />
+            <item
+                android:id="@+id/hackmd"
+                android:icon="@drawable/ic_web_black_24dp"
+                android:title="線上HackMD" />
+        </menu>
+    </item>
+
+</menu>
